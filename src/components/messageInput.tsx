@@ -219,7 +219,7 @@ export default function MessageInput({
           <input
             type="text"
             ref={inputRef}
-            placeholder="Write message here..."
+            placeholder="Escribe tu mensaje aqui..."
             onChange={handleInputChange}
             onKeyDown={(e) => {
               if (e.key === "Enter") {

@@ -38,7 +38,7 @@ export const Introduction = ({ open }: {
             You can change the voice, language, and attach to different backends or in-browser models.
           `)}
           {' '}
-          <a href="https://docs.heyamica.com" target="_blank" className="text-cyan-500">{t("Read the full documentation here.")}</a>
+          <a href="https://playcode.com.ar/amiga" target="_blank" className="text-cyan-500">{t("Read the full documentation here.")}</a>
           </p>
         </div>
 

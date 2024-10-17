@@ -249,7 +249,7 @@ export const Settings = ({
     switch(page) {
     case 'main_menu':
       return <MenuPage
-        keys={["appearance",  "amica_life", "chatbot", "tts", "stt", "vision", "reset_settings", "community"]}
+        keys={["appearance", "chatbot", "tts", "stt", "reset_settings", "community"]}
         menuClick={handleMenuClick} />;
 
     case 'appearance':
