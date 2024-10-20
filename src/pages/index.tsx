@@ -67,6 +67,11 @@ const montserrat = Montserrat({
 
 
 export default function Home() {
+   // Verificar si se está ejecutando en un iframe
+  if (window.top === window.self) {
+    // No está en un iframe, redirigir a otra página
+    window.location.href = "https://tu-dominio.com"; // Cambia esto por tu dominio
+  }
   const { t, i18n } = useTranslation();
   const currLang = i18n.resolvedLanguage;
   const { viewer } = useContext(ViewerContext);
