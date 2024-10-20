@@ -66,7 +66,7 @@ const montserrat = Montserrat({
 });
 
 
-export default function Home()
+export default function Home() {
   const { t, i18n } = useTranslation();
   const currLang = i18n.resolvedLanguage;
   const { viewer } = useContext(ViewerContext);
