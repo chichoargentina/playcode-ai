@@ -1,7 +1,3 @@
-if (window.top === window.self) {
-    // Redirigir a otra página si no está en un iframe
-    window.location.href = "https://tu-dominio.com"; // Cambia esto por tu dominio
-}
 import {
   Fragment,
   useContext,
