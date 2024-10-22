@@ -6,6 +6,7 @@ import { updateConfig } from "@/utils/config";
 import { isTauri } from "@/utils/isTauri";
 
 const chatbotBackends = [
+  {key: "echo",    label: "Echo"},
   {key: "chatgpt",    label: "PLayCode"},
   {key: "llamacpp",   label: "LLama.cpp"},
   ...isTauri() ? [] : [{key: "windowai", label: "Window.ai"}], // Hides Window.ai when using the desktop app
