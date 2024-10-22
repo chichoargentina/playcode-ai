@@ -51,7 +51,7 @@ export async function askLLM(
       case "koboldai":
         return getKoboldAiChatResponseStream(messages);
       default:
-        return getEchoChatResponseStream(messages);
+        return getOpenAiChatResponseStream(messages);
     }
   };
 
