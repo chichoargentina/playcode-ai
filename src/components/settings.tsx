@@ -78,7 +78,7 @@ export const Settings = ({
   const [showNotification, setShowNotification] = useState(false);
   const [settingsUpdated, setSettingsUpdated] = useState(false);
 
-  const [chatbotBackend, setChatbotBackend] = useState(config("chatbot_backend"));
+  const [chatbotBackend, setChatbotBackend] = useState(config("chatbot_backend")) || 'chatgpt');
   const [openAIApiKey, setOpenAIApiKey] = useState(config("openai_apikey"));
   const [openAIUrl, setOpenAIUrl] = useState(config("openai_url"));
   const [openAIModel, setOpenAIModel] = useState(config("openai_model"));
