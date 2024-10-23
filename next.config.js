@@ -13,26 +13,6 @@ const nextConfig = {
     root: process.env.BASE_PATH || "",
   },
   optimizeFonts: false,
-
-  // Actualizamos las cabeceras de seguridad
-  async headers() {
-    return [
-      {
-        source: '/(.*)', // Aplica las cabeceras a todas las rutas
-        headers: [
-          {
-            key: 'X-Frame-Options',
-            value: 'ALLOW-FROM https://www.playcode.com.ar', // Si solo necesitas un dominio en navegadores antiguos
-          },
-          {
-            key: 'Content-Security-Policy',
-            value: "frame-ancestors 'self' https://www.playcode.com.ar https://aulas.playcode.com.ar;", // Permitir ambos dominios en CSP
-          },
-        ],
-      },
-    ];
-  },
-
   webpack: (config, { webpack, buildId }) => {
     // See https://webpack.js.org/configuration/resolve/#resolvealias
     config.resolve.alias = {
@@ -81,5 +61,6 @@ const nextConfig = {
     return config;
   },
 }
+
 
 module.exports = withPWA(nextConfig);
