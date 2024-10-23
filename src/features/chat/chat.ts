@@ -518,7 +518,7 @@ export class Chat {
         return getKoboldAiChatResponseStream(messages);
     }
 
-    return getEchoChatResponseStream(messages);
+    return getOpenAiChatResponseStream(messages);
   }
 
   public async getVisionResponse(imageData: string) {
