@@ -16,7 +16,7 @@
   "Load Chat": "Cargar Chat",
   "YOU": "TÚ",
   "Welcome to Amica": "Bienvenido a Amiga",
-  "amica_intro": "\nAmiga es una interfaz de chatbot de código abierto que proporciona emociones, conversión de texto a voz y de voz a texto.\nEstá diseñada para conectarse a cualquier API de ChatBot.\nSe puede usar con cualquier modelo VRM y es altamente personalizable.\nIncluso puedes ejecutar Amiga en tu propio ordenador sin conexión a internet o en tu teléfono.",
+  "amica_intro": "\nAmiga es una interfaz de chatbot que proporciona emociones, conversión de texto a voz y de voz a texto.\nEstá diseñada para conectarse a cualquier API de ChatBot.\nSe puede usar con cualquier modelo VRM y es altamente personalizable.\nIMPORTANTE: La primera vez que ingresas a Amiga debes tener paciencia, suele demorar la respuesta, pero te va a responder.",
   "Setup": "Configuración",
   "amica_setup": "\nHaz clic en la parte superior izquierda de la pantalla para abrir los ajustes.\nPuedes cambiar la voz, el idioma y conectarte a diferentes servicios o modelos en el navegador.",
   "Read the full documentation here.": "Lee la documentación completa aquí.",
